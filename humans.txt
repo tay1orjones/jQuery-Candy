@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Taylor Jones - @tay1orjones
 
 # THANKS
 
