@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>jQuery Candy</h1>
+            <p>jQuery: The library that makes everything oh so sweet</p>
+        </header>
+
+        <main>
+            <section class="instructions">
+                <h2>Instructions</h2>
+                <p>Open your inspector console, and let's get to chewin' on some sweet jQuery candy.</p>
+                <p>The <a href="http://api.jquery.com/">jQuery online documentation</a> is quite helpful, but for an extra challenge try to complete this without it. We will be using selectors, traversal, and manipulation for these exercises.</p>
+            </section>
+
+            <section class="selectors">
+                <h2>Selectors</h2>
+                <p>Let's get familiar with selectors. There are multiple types of selectors, so lets get selecting!</p>
+                <article>
+                    <div class="gumdrop">Select this element, this div has a class of "gumdrop"</div>
+                    <div id="nerds">Select this element, this div has an id of "nerds"</div>
+                    <label>Select the element below <input type="text" name="lollipop" value="I have a name of lollipop!" /></label>
+                    <label>Select the element below
+                    <input type="button" class="btn" value="I am a type of 'button'"></label>
+                    
+                </article>
+            </section>
+
+            <section class="traversal">
+                <h2>Traversal</h2>
+                <p>Below is an article with the class of "element-list", it contains 10 bubblegum colored spans that are labeled accordingly. Separately, select the first element, select the last element, select the element next to the third element, select the second to last element, & select all the child elements.</p>
+
+                <article class="element-list">
+                    <span>First Element</span>
+                    <span>Second Element</span>
+                    <span>Third Element</span>
+                    <span>Fourth Element</span>
+                    <span>Fifth Element</span>
+                    <span>Sixth Element</span>
+                    <span>Seventh Element</span>
+                    <span>Eighth Element</span>
+                    <span>Ninth Element</span>
+                    <span>Tenth Element</span>
+                </article>
+
+                <p>Select the lime-layer, then from there traverse to the child blueberry layer, the parent strawberry layer, and the gobstopper.</p>
+                <div class="gobstopper">class="gobstopper"
+                    <div class="strawberry-layer">class="strawberry-layer"
+                        <div class="lime-layer">class="lime-layer"
+                            <div class="blueberry-layer">class="blueberry-layer"
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="manipulation">
+                <h2>Manipulation</h2>
+                <p>Below is a snippet of code, copy this code, and insert it via jQuery both before and after the element with the class of "laffy-taffy-middle".</p>
+                <p>&lt;div class=&quot;laffy-taffy laffy-taffy-ends&quot;&gt;Laffy-taffy ends!&lt;/div&gt;</p>
+
+                <div class="laffy-taffy laffy-taffy-middle">Laffy-taffy middle!</div>
+
+                <p>Now remove the laffy taffy altogether. It's got a class of "laffy-taffy"</p>
+
+                <hr/>
+
+                <input type="text" value="Copy the value of this input, and place it in the p tag with a class of 'input-value'" size="70"/>
+
+                <p>The value of the input above is: <p class="input-value"></p></p>
+
+                <hr/>
+
+                <p>The button below has a class of 'submit-order-btn'. Change it to have a value of "processing..." and disable it so it cannot be clicked. Try doing this in one line.</p>
+
+                <input type="button" value="submit order" id="submit-order-btn" class="btn"/>
+
+                <hr>
+
+                <p>The input below has had an invalid value entered in by the user. The input is wrapped by a label with a class of 'email-input'. Add a class of 'invalid' to the label, so we can alert the user that they have entered in something incorrect.</p>
+
+                <label class="email-input">Email:
+                    <input type="text" value="tjones@beapro/com"/>
+                </label>
+
+                <p>Now change the value of the input to something valid, and remove the class of "invalid".</p>
+
+                <hr/>
+
+                <p>There is an element below that has a data attribute of 'data-numberofelements'. It's value is a number. Using that number, insert the following code snippet that many times. Insert the snippet before or after, your choice.</p>
+                <p>&lt;span class=&quot;inserted-element&quot;&gt;Hi! I'm an inserted element!&lt;/span&gt;</p>
+
+                <div data-numberofelements="8" class="jolly-rancher">I have the amount of spans you should insert!</div>
+                <span class="inserted-element">Hi! I'm an inserted element!</span><span class="inserted-element">Hi! I'm an inserted element!</span><span class="inserted-element">Hi! I'm an inserted element!</span><span class="inserted-element">Hi! I'm an inserted element!</span><span class="inserted-element">Hi! I'm an inserted element!</span><span class="inserted-element">Hi! I'm an inserted element!</span>
+                <div style="clear: both;"></div>
+
+                <hr/>
+
+
+            </section>
+
+        </main>
+
+        <footer>
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
